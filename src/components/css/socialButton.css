@@ -1,0 +1,22 @@
+#icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Ajusta el espacio entre los botones */
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50%; /* No se porque no lo toma*/
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,28 @@
+.input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 5px; /* Margen inferior entre los inputs */
+  padding: 2px; /* Espacio interno del input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#register {
+  background-color: green;
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+#register:hover {
+  background-color: darkseagreen;
+}
+.error {
+  color: red;
+}
+
+.form {
+  justify-items: center;
+  align-items: center;
+}
